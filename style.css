@@ -1,0 +1,61 @@
+body{
+    /* background-image: url('https://oercommons.s3.amazonaws.com/media/courseware/lesson/image/7wonders_5L438hX.jpg'); */
+background-image: url('images/pipe1.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+
+/* background-position: fixed; */
+}
+#icon{
+height: 50px;
+margin-left: 50px;
+margin-top: 10px;
+}
+.head1{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    margin-left: 950px;
+    /* border: 1px solid red; */
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.head1 a{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 247, 255);
+    border: 1px solid;
+    margin: 2px;
+    background-color: rgb(108, 108, 184);
+    
+}
+a:hover{
+    color:rgb(130, 10, 243);
+    background-color: aqua;
+    transition: all;
+}
+#title1{
+
+margin-top: 0px;
+/* margin-left: 500px; */
+justify-content: center;
+/* border: 1px solid red; */
+width: 280px;
+height: 40px;
+align-items: center;
+margin-left: 550px;
+font-size: 40px;
+font-weight: 350px;
+color: rgb(251, 255, 0);
+font-style: initial;
+}
+#title1:hover{
+transform: scale(1.2);
+font-weight: 400px;
+color: blue;
+}
